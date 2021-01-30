@@ -1,2 +1,2 @@
 rootProject.name = "myproject"
-include("kstream")
+include("kstream","sparkling")
