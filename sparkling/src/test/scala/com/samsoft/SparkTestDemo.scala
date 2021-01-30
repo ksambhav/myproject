@@ -1,9 +1,9 @@
 package com.samsoft
 
-import org.scalatest.funsuite.AnyFunSuite
+import org.apache.spark.sql.test.SharedSparkSession
 
 
-class SparkTestDemo extends AnyFunSuite {
+class SparkTestDemo extends SharedSparkSession {
 
   test("test") {
     println("test")
